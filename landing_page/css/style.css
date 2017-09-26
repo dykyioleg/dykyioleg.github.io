@@ -53,7 +53,7 @@ a:hover,a:focus{
 	padding-bottom: 15px;
 }
 
-.btn{
+.b-tn{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-weight: 800;
@@ -67,7 +67,7 @@ a:hover,a:focus{
 }
 
 #headerwrap{
-	background: url(../img/Hero-Header.png) no-repeat center top;
+	background: url(../img/Hero-Header.png) no-repeat center top ;
 	margin-top: -20px;
 	padding-top: 20px;
 	text-align: center;
@@ -202,23 +202,31 @@ a:hover,a:focus{
 }
 
 
-.like-button{
-	border: 0;
-	margin-left: 70px;
-	margin-top: -20px;
+.embed-responsive.embed-responsive-4by3 {
+	padding-bottom: 75%;
+}
 
-
+.embed-responsive{
+	position: relative;
+	display: block;
+	height: 0;
+	padding: 0;
+	overflow: hidden;
+	width:100%;
 
 }
 
-.vimeo iframe{
-	min-height: 230px;
-	margin-top: 70px;
+.embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object{
 	position: absolute;
-	width: 400px;
-	border:0;
-	margin-left: 40px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 95%;
+	height: 70%;
+	border: 0;
 }
+
+
 
 .wher-form{
 	min-height:680px;
@@ -227,16 +235,15 @@ a:hover,a:focus{
 
 }
 
-.txt{
-	margin-left: 35px;
-	margin-top: -30px;
+.im-3{
+	margin-bottom: 40px;
 }
 
-.txt h3{
+.wher-form h3{
 	font-weight: 700;
 }
 
-.txt p{
+.wher-form p{
 	color: #a19c9c;
 	font-weight: 400;
 	font-size: 17px;
@@ -250,6 +257,7 @@ a:hover,a:focus{
 	width: 350px;
 	margin-top: -32px;
 	border-radius: 5px;
+	margin-left: -13px;
 }
 
 .btn-color{
@@ -347,20 +355,44 @@ ul{
 .fott-cont{
 	min-height: 80px;
 	width: 100%;
-	background-color:#a1f3ed;
+	background-color:#5efffa;
 }
 
 .fott-cont p{
-	color: #a19c9c;
+	color: #2169ce;
 
 }
 
-.twitter-btn{
-	height: 21px;
-	width: 70px;
-	background-color: #4267b2;
-	border-radius: 3px;
-	padding-left: 5px;
-	padding-bottom: 3px;
+.a1{
+	color: #478ef1;
+	font-size: 20px;
+}
 
+.a2{
+	color: white;
+	font-size: 20px;
+}
+
+.a3{
+	color:red;
+	font-size: 20px;
+}
+
+.icon .a1:hover,.icon .a1:focus{
+	text-decoration: none;
+	color: white;
+	outline: 0;
+}
+
+.icon .a2:hover,.icon .a2:focus{
+	text-decoration: none;
+	color: #478ef1;
+	outline: 0;
+}
+
+
+.icon .a3:hover,.icon .a3:focus{
+	text-decoration: none;
+	color: white;
+	outline: 0;
 }
