@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+
+
+body{
+	background-color: white;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 19px;
+	color: #555;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	
+	
+
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Raleway";
+	font-weight: 400;
+	color: #333;
+}
+
+
+.centered{
+	text-align: center;
+}
+
+#headerwrap{
+	background: url(../img/bg.png) no-repeat center top ;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 850px;
+	width: 100%;
+	
+	
+
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-0-background-size:cover;
+	background-size: cover;
+}
+
+#headerwrap h1{
+	margin-top: 300px;
+	color:#000;
+	font-size: 45px;
+	font-weight: 600;
+	letter-spacing: 1px;
+
+}
+
+
+.short-line{
+	background-color: #5b9a68;
+	height: 5px;
+	width: 8%;
+}
+
+#headerwrap p{
+	margin-bottom: 25px;
+   	font-size: 17px;
+	letter-spacing: 0px;
+	color: #696969;
+}
+
+#headerwrap .get_1_btn a {
+	background: #eee;
+	font-size:20px;
+	font-weight: bold;
+	color: #4d8c5a;
+    border: 2px solid #5b9a68;
+	
+
+	padding: 20px 35px;
+	text-align: center;
+
+	display: inline-block;
+	border-radius: 3px;
+	text-decoration:none;
+	position: relative;
+}
+
+#headerwrap .get_1_btn a:hover {
+	background: #5b9a68;
+    color: #fff;
+
+ }
+
+#headerwrap .slow_fade {
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+     -o-transition: all 0.2s linear;
+}
+
+
+#headerwrap .first_link {
+	text-align: center;
+    padding-top: 30px;
+    margin-bottom: 350px;
+}
+
+ .three-images {
+ 	background-color: #f8f8f8;
+ 	min-height: 300px;
+ 	width: 100%;
+}
+
+ .three-images .part_st {
+ 	position: relative;
+    text-align: center;
+    padding-top: 60px;
+}
+
+ .three-images .img_st{
+ 	padding: 20px 20px;
+    border: 2px solid #5b9a68;
+    border-radius: 25px;
+    display: inline-block;
+    position: relative;
+}
+
+.three-images .text_agency_style{
+	position: relative;
+	padding: 15px 0px;
+}
+
+.three-images .agency_st{
+	color:#696969;
+    font-weight: 500;
+    font-size: 22px;
+    
+}
+
+.three-images .agency_text{
+  	color: rgb(169, 169, 169);
+    font-size: 16px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logos_sect{
+	background-color: #fff;
+	text-align: center;
+	padding-bottom: 20px;
+    border: 1px solid #ddd;
+    min-height: 280px;
+ 	width: 100%
+}
+
+.logos_sect .t1_logos{
+	color: #5b9a68;
+    font-size:20px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+ .logos_sect .t2_logos{
+ 	color: #808080;
+    line-height: 40px;
+    font-size:16px;
+    text-align: center;
+}
+
+.logos_sect .text_logos{
+	color:#808080;
+    padding-top: 30px;
+    font-size:14px;
+    font-weight: 600;
+}
+
+
+.logos_sect  .padd_updown{
+	padding-top: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+    position: relative;
+}
+
+.logos_sect .logo_width{
+	max-width: 100%;
+
+}
+
+.envato-unbounce{
+	background-color: #f5f5f5;
+	text-align: center;
+	padding: 40px 0px;
+	border-bottom: 1px solid #ddd;
+	min-height: 300px;
+	width: 100%;
+
+}
+
+.envato-unbounce .L1_style{
+    color:#5b9a68;
+    font-size:22px;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.envato-unbounce .L2_style{
+	color:#a9a9a9;
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+.envato-unbounce .box_style{
+	background-color: #fff;
+    border-radius: 5px;
+   // border-bottom: 3px solid #ddd;
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+    display: inline-block;
+}
+
+.envato-unbounce .b_style img {
+	background-color: #eee;
+    float:left;
+    height: auto;
+    width: 14%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 20px;
+}
+
+.envato-unbounce .logo_style {
+	border-radius: 100%;
+
+ }
+
+
+.envato-unbounce .pix_testi_bottom{
+	position: relative;
+	top: -8px;
+}
+
+.envato-unbounce .txt_style {
+	background-color: #fff;
+    float: right;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    width:80%;
+    color:#808080;
+    padding-left: 1%;
+    text-align: left;
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+}
+
+.envato-unbounce .inner_txt_style{
+  	padding: 10px;
+  	padding-top: 20px;
+}
+
+.envato-unbounce .txt {
+	width: 90%;
+
+}
+
+.envato-unbounce .star_st{
+	width: 35%;
+}
+
+.envato-unbounce  .env_st {
+	color:#5b9a68;
+    position: relative;
+    top: 3px;
+}
+
+.foot-st{
+	background-color: #fff;
+	text-align: center;
+	min-height: 430px;
+	width: 100%;
+}
+
+.foot-st .f1_style{
+    color:#5b9a68;
+    font-size:26px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 60px;
+
+}
+
+.foot-st .f2_style{
+	color:#a9a9a9;
+    font-size: 16px;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px  0px;
+}
+
+.foot-st .rights_st{
+ 	color:#a9a9a9;
+    font-size:14px;
+    text-align: center;
+    //padding-top: 25px;
+}
+
+.foot-st .second_link{
+	text-align: center;
+    padding-bottom: 40px ;
+}
+
+
+.foot-st .get_2_btn a {
+	background: #fff;
+	font-size:20px;
+	font-weight: bold;
+	color: #4d8c5a;
+	border: 2px solid #5b9a68;
+
+	padding: 20px 35px;
+	text-align: center;
+
+	display: inline-block;
+	border-radius: 3px;
+	text-decoration:none;
+	position: relative;
+}
+
+.foot-st .get_2_btn a:hover {
+	background: #5b9a68;
+    color: #fff;
+
+}
+
+.foot-st .pixfort_st{
+	color:#5b9a68;
+    font-weight: bold;
+    font-size:14px;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+
+}
+
+.center_btn{
+	text-align: center;
+    padding: 20px 0px;
+}
+
+.faccebook-btn{
+	font-size: 30px;
+	color: #ddd;
+}
+
+
+.faccebook-btn:hover{
+	color: #337ab7;
+}
+
+.twitter-btn{
+	font-size: 30px;
+	color: #ddd;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.twitter-btn:hover{
+	color: #06e0fc;
+
+}
+
+.youtube-btn{
+	font-size: 30px;
+	color: #ddd;
+}
+
+.youtube-btn:hover{
+	color:red;
+}
